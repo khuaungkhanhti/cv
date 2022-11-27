@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Input Practice</title>
+</head>
+
+<body>
+  <form class="" action="mailto:khunau@gmail.com" method="post" enctype="text/plain">
+    <button type="button" name="button" onclick="alert('Welcome! Crazy old cow😋')">Click Me</button>
+    <hr>
+    <label for="username">Username :</label>
+    <input type="text" name="username" value=""><br>
+
+    <label for="email">Email :</label>
+    <input type="email" name="email" value=""><br>
+
+    <label for="password">Password :</label>
+    <input type="password" name="password" value=""><br>
+
+
+    <table border="1">
+      <tr>
+        <td>
+          <label for="paymentMethod">Payment Method:</label>
+        </td>
+        <td>
+          <label for="visa">Visa</label>
+          <input type="radio" name="paymentMethod" value="Visa">
+        </td>
+        <td>
+          <label for="mastercard">Mastercard</label>
+          <input type="radio" name="paymentMethod" value="Mastercard" checked>
+        </td>
+        <td>
+          <label for="american express">American Express</label>
+          <input type="radio" name="paymentMethod" value="American Express">
+        </td>
+      </tr>
+    </table>
+
+    <label for="gender">Gender :</label>
+    <select class="" name="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="not define">Not define</option>
+    </select>
+
+    <label for="birthday">Birthday :</label>
+    <input type="date" name="birthday" value=""><br>
+
+    <label for="cv">Upload your CV :</label>
+    <input type="file" name="cv" value=""><br>
+
+    <label for="annualIncome">Annual Income :</label>
+    <input type="range" name="annualIncome" value="" min="45000" max="140000"><br>
+
+    <label for="agreement">I agree to pay monthly :</label>
+    <input type="checkbox" name="agreement" value="yes" required><br>
+
+    <input type="submit" name="" value="Submit">
+  </form>
+</body>
+
+</html>
